@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Page1.qml</file>
+        <file>Page1Form.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>images/java.jpg</file>
+        <file>images/javaee.jpg</file>
+        <file>images/mysql.jpg</file>
+        <file>images/orcl.jpg</file>
+        <file>images/php.jpg</file>
+        <file>images/plc.jpg</file>
+        <file>images/sqlsrv.jpg</file>
+    </qresource>
+</RCC>

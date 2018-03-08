@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+    <title>我的购物车</title>
+</head>
+<body>
+    <form name="form2" method="post" action="">
+        <fieldset style="width:500px">
+            <table width="500" border="0" cellspacing="2" cellpadding="5" bgcolor="#CCFFFF">
+                <tr>
+                    <th bgcolor="rgb(159,238,159)" align="center" width="260" height="12">书 名</th>
+                    <th bgcolor="rgb(159,238,159)" align="center" width="60">定 价</th>
+                    <th bgcolor="rgb(159,238,159)" align="center" width="60">数 量</th>
+                    <th bgcolor="rgb(204,256,256)" align="center" width="80">
+                        <font color="gray">封 面</font>
+                    </th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="BOOK" value="2" checked="checked" />Server实用教程（第4版）</td>
+                    <td align="center">49.00</td>
+                    <td><input type="text" name="quantity1" value="20" size="4" /></td>
+                    <td align="center"><img src="easybooks/150.jpg" alt=" SQL Server2014" height="75" width="60"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="BOOK" value="0" checked="checked" />Oracle实用教程（第4版）</td>
+                    <td align="center">49.00</td>
+                    <td><input type="text" name="quantity2" value="10" size="4" /></td>
+                    <td align="center"><img src="easybooks/850.jpg" alt=" Oracle12c" height="75" width="60"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="BOOK" value="3" checked="checked" />MySQL实用教程（第2版）</td>
+                    <td align="center">53.00</td>
+                    <td><input type="text" name="quantity3" value="5" size="4" /></td>
+                    <td align="center"><img src="easybooks/545.jpg" alt=" MySQL" height="75" width="60"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="BOOK" value="4" checked="checked" />PHP实用教程（第2版）</td>
+                    <td align="center">45.00</td>
+                    <td><input type="text" name="quantity4" value="15" size="4" /></td>
+                    <td align="center"><img src="easybooks/526.jpg" alt=" PHP" height="75" width="60"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width:500px" align="right">
+            <b>消费总金额：<input type="text" name="totalprice" size="5" /> 元</b>
+            <input type="submit" name="countBtn" value="提交" /><input type="reset" name="clearBtn" value="重置" />
+        </fieldset>
+    </form>    
+</body>
+</html>
